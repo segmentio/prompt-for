@@ -8,12 +8,34 @@ describe('prompt-for', function(){
   });
 
   it('should prompt for a schema', function(done){
-    prompt({ string: 'string' }, function(err, answers){
+    prompt({ one: 'string', two: 'string' }, function(err, answers){
       if (err) return done(err);
-      assert.equal(answers.string, 'name');
+      assert.equal(answers.one, 'one');
+      assert.equal(answers.two, 'two');
       done();
     });
-    answer('name');
+    answer('one');
+    answer('two');
+  });
+
+  it('should accept an array shorthand', function(done){
+    prompt(['one', 'two'], function(err, answers){
+      if (err) return done(err);
+      assert.equal(answers.one, 'one');
+      assert.equal(answers.two, 'two');
+      done();
+    });
+    answer('one');
+    answer('two');
+  });
+
+  it('should accept a string shorthand', function(done){
+    prompt('one', function(err, answers){
+      if (err) return done(err);
+      assert.equal(answers.one, 'one');
+      done();
+    });
+    answer('one');
   });
 
   it('should coerce numbers', function(done){
