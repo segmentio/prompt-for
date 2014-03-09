@@ -29,7 +29,7 @@ prompt(schema, function(err, answers){
 
   And if you're being lazy...
 
-```
+```js
 prompt(['name', 'website'], function(err, answers){
   assert(answers.name == 'Ian');
   assert(answers.name == 'ianstormtaylor.com');
@@ -42,6 +42,7 @@ prompt(['name', 'website'], function(err, answers){
 prompt('name', function(err, answers){
   assert(answers.name == 'Ian');
 });
+```
 
 ## API
 
