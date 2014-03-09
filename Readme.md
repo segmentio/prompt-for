@@ -11,15 +11,19 @@
 
 ```js
 var prompt = require('prompt-for');
+
 var schema = {
   name: 'string',
-  email: 'string',
+  siblings: 'number',
   birthday: 'date',
   deceased: 'boolean'
 };
 
 prompt(schema, function(err, answers){
   assert(answers.name == 'Ian');
+  assert(answers.siblings == 2);
+  assert(answers.birthday.getTime() == 1343260800000);
+  assert(answers.deceased == false);
 });
 ```
 
