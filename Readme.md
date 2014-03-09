@@ -32,7 +32,7 @@ prompt(schema, function(err, answers){
 ```js
 prompt(['name', 'website'], function(err, answers){
   assert(answers.name == 'Ian');
-  assert(answers.name == 'ianstormtaylor.com');
+  assert(answers.website == 'ianstormtaylor.com');
 });
 ```
 
