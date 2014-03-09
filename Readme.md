@@ -27,6 +27,22 @@ prompt(schema, function(err, answers){
 });
 ```
 
+  And if you're being lazy...
+
+```
+prompt(['name', 'website'], function(err, answers){
+  assert(answers.name == 'Ian');
+  assert(answers.name == 'ianstormtaylor.com');
+});
+```
+
+  Or even...
+
+```js
+prompt('name', function(err, answers){
+  assert(answers.name == 'Ian');
+});
+
 ## API
 
 #### prompt(schema, [options], fn)
