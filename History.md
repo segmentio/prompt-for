@@ -1,4 +1,8 @@
 
+0.0.3 - March 11, 2013
+----------------------
+* remove ? from boolean asks
+
 0.0.2 - March 9, 2013
 ---------------------
 * remove debugger call :)
