@@ -51,7 +51,8 @@ prompt('name', function(err, answers){
   Prompt the user with the given `schema` and optional `options`, then callback with `fn(err, answers)`. Options default to:
 
     {
-      color: null
+      color: null,
+      pad: true
     }
 
 ## License
