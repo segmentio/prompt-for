@@ -16,7 +16,8 @@ var schema = {
   name: 'string',
   siblings: 'number',
   birthday: 'date',
-  deceased: 'boolean'
+  deceased: 'boolean',
+  secret: 'password'
 };
 
 prompt(schema, function(err, answers){
@@ -24,6 +25,7 @@ prompt(schema, function(err, answers){
   assert(answers.siblings == 2);
   assert(answers.birthday.getTime() == 1343260800000);
   assert(answers.deceased == false);
+  assert(answers.secret == '1234');
 });
 ```
 
