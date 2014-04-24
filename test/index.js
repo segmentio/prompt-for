@@ -64,6 +64,34 @@ describe('prompt-for', function(){
     });
     answer('2012-07-26');
   });
+
+  it('should apply defaults', function(done){
+    prompt({ number: { type: 'number', default: 42 }}, function(err, answers){
+      if (err) return done(err);
+      assert.equal(answers.number, 42);
+      done();
+    });
+    answer('');
+  });
+
+  it('should wait for required values', function(done){
+    prompt({ number: { type: 'number', required: true }}, function(err, answers){
+      if (err) return done(err);
+      assert.equal(answers.number, 42);
+      done();
+    });
+    answer('');
+    answer('42');
+  });
+
+  it('should use a default for required values', function(done){
+    prompt({ number: { type: 'number', default: 42, required: true }}, function(err, answers){
+      if (err) return done(err);
+      assert.equal(answers.number, 42);
+      done();
+    });
+    answer('');
+  });
 });
 
 /**

@@ -1,4 +1,9 @@
 
+0.2.0 - April 24, 2014
+----------------------
+* add `default` to schema
+* add `required` to schema
+
 0.1.0 - March 27, 2013
 ----------------------
 * add `pad` option
