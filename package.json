@@ -8,8 +8,8 @@
   "dependencies": {
     "date.js": "^0.2.0",
     "extend": "^1.2.1",
-    "debug": "^0.7.4",
-    "async": "^0.2.10",
+    "debug": "^0.8.0",
+    "async-each-series": "^0.0.1",
     "chalk": "^0.4.0",
     "pad-component": "0.0.1",
     "cli-prompt": "^0.3.2",
