@@ -1,4 +1,9 @@
 
+0.3.0 - April 29, 2014
+----------------------
+* fix `pad` option
+* add `hint` to schema for custom hints
+
 0.2.0 - April 24, 2014
 ----------------------
 * add `default` to schema
