@@ -1,4 +1,8 @@
 
+0.4.0 - April 29, 2014
+----------------------
+* change `pad` option to a number
+
 0.3.0 - April 29, 2014
 ----------------------
 * fix `pad` option
