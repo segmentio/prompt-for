@@ -1,4 +1,8 @@
 
+0.4.1 - May 28, 2014
+--------------------
+* fix padding bug
+
 0.4.0 - April 29, 2014
 ----------------------
 * change `pad` option to a number
