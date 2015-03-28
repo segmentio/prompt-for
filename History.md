@@ -1,4 +1,8 @@
 
+0.5.1 - March 27, 2015
+----------------------
+* fix bug for required strings
+
 0.5.0 - October 4, 2014
 -----------------------
 * add list support

@@ -87,9 +87,9 @@ describe('prompt-for', function(){
   });
 
   it('should wait for required values', function(done){
-    prompt({ number: { type: 'number', required: true }}, function(err, answers){
+    prompt({ string: { required: true }}, function(err, answers){
       if (err) return done(err);
-      assert.equal(answers.number, 42);
+      assert.equal(answers.string, '42');
       done();
     });
     answer('');
