@@ -1,4 +1,8 @@
 
+1.0.0 - March 28, 2015
+----------------------
+* change `list` to `array` for consistency
+
 0.5.1 - March 27, 2015
 ----------------------
 * fix bug for required strings

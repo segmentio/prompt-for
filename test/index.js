@@ -65,13 +65,13 @@ describe('prompt-for', function(){
     answer('2012-07-26');
   });
 
-  it('should coerce lists', function(done){
-    prompt({ list: 'list' }, function(err, answers){
+  it('should coerce arrays', function(done){
+    prompt({ array: 'array' }, function(err, answers){
       if (err) return done(err);
-      assert(answers.list instanceof Array);
-      assert.equal(answers.list[0], 'one');
-      assert.equal(answers.list[1], 'two');
-      assert.equal(answers.list[2], 'three');
+      assert(answers.array instanceof Array);
+      assert.equal(answers.array[0], 'one');
+      assert.equal(answers.array[1], 'two');
+      assert.equal(answers.array[2], 'three');
       done();
     });
     answer('one, two, three');
