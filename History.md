@@ -1,4 +1,8 @@
 
+1.1.2 - March 29, 2015
+----------------------
+* remove dumb `read` leftover
+
 1.1.1 - March 29, 2015
 ----------------------
 * swap back to `cli-prompt` for prompting

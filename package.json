@@ -2,7 +2,7 @@
   "name": "prompt-for",
   "description": "Prompt the user for a series of answers.",
   "repository": "git://github.com/segmentio/prompt-for.git",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
