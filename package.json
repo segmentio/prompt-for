@@ -2,7 +2,7 @@
   "name": "prompt-for",
   "description": "Prompt the user for a series of answers.",
   "repository": "git://github.com/segmentio/prompt-for.git",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
@@ -14,7 +14,8 @@
     "debug": "^0.8.0",
     "extend": "^1.2.1",
     "max-component": "^1.0.0",
-    "pad-component": "0.0.1"
+    "pad-component": "0.0.1",
+    "read": "^1.0.5"
   },
   "devDependencies": {
     "mocha": "1.x"

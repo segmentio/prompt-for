@@ -1,4 +1,9 @@
 
+1.1.0 - March 29, 2015
+----------------------
+* add `prefix` option
+* swap to `read` for prompting
+
 1.0.0 - March 28, 2015
 ----------------------
 * change `list` to `array` for consistency

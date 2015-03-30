@@ -96,7 +96,9 @@ prompt(schema, function(err, answers){
 
     {
       color: null,
-      pad: true
+      pad: true,
+      prefix: '',
+      separator: ': '
     }
 
 ## License
