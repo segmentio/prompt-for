@@ -14,8 +14,7 @@
     "debug": "^0.8.0",
     "extend": "^1.2.1",
     "max-component": "^1.0.0",
-    "pad-component": "0.0.1",
-    "read": "^1.0.5"
+    "pad-component": "0.0.1"
   },
   "devDependencies": {
     "mocha": "1.x"
