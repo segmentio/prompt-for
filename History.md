@@ -1,4 +1,10 @@
 
+1.1.1 - March 29, 2015
+----------------------
+* swap back to `cli-prompt` for prompting
+* fix `prefix` option handling
+* tweak `separator` option to be fully customizable
+
 1.1.0 - March 29, 2015
 ----------------------
 * add `prefix` option
