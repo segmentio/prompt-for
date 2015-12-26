@@ -78,11 +78,16 @@ describe('prompt-for', function(){
   });
 
   it('should apply defaults', function(done){
-    prompt({ number: { type: 'number', default: 42 }}, function(err, answers){
+    prompt({
+      string: { type: 'string', default: 'hi' },
+      number: { type: 'number', default: 42 }
+    }, function(err, answers){
       if (err) return done(err);
+      assert.equal(answers.string, 'hi');
       assert.equal(answers.number, 42);
       done();
     });
+    answer('');
     answer('');
   });
 
