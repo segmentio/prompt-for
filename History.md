@@ -1,4 +1,9 @@
 
+1.1.3 / 2016-01-07
+==================
+
+  * package: upgrade `cli-prompt` (#10, @chemdemo)
+
 1.1.2 - March 29, 2015
 ----------------------
 * remove dumb `read` leftover
